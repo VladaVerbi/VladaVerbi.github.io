@@ -174,6 +174,25 @@
       margin-top:14px;
     }
     .note b{color:var(--ink)}
+    .source-request{
+      margin:18px 0 0;
+      padding:16px 18px;
+      border:1px solid rgba(61,36,143,.12);
+      background:linear-gradient(135deg,var(--lilac),#fff);
+      border-radius:22px;
+      color:var(--text);
+      font-size:15px;
+    }
+    .source-request b{
+      color:var(--violet);
+      display:block;
+      margin-bottom:4px;
+    }
+    .source-request.compact{
+      margin:0 0 16px;
+      font-size:14px;
+      padding:13px 15px;
+    }
     ul{margin:10px 0 0;padding-left:20px;color:var(--text)}
     li{margin:6px 0}
     @media (max-width:760px){
@@ -189,6 +208,10 @@
       <a class="back" href="index.html">← Вернуться к лендингу</a>
       <h1>Чистые источники к отчету</h1>
       <p class="lead">Здесь собраны только публичные выдержки: цифра, короткий расчет, имя человека, дата и сама цитата. Внутренние рабочие рассуждения, черновики и служебные комментарии сюда не вынесены.</p>
+      <div class="source-request">
+        <b>Полные оригиналы — только лично.</b>
+        Договор, Telegram-выгрузки, таблицы воронок, LiveDune/метрики, рабочие чаты, цитаты коллег, расчёты и другие первоисточники можно и нужно запросить у меня в личном чате. Я пришлю нужный оригинал точечно, без публикации внутренних материалов в открытом доступе.
+      </div>
     </header>
 
     <nav aria-label="Навигация по источникам">
@@ -205,6 +228,7 @@
     <section id="telegram-funnel">
       <p class="eyebrow">Источник: таблица воронок Telegram</p>
       <h2>Входы в бот и потенциальная выручка</h2>
+      <div class="source-request compact"><b>Оригинал по запросу:</b> таблица воронок Telegram, расчёты по входам, месяцам и среднему чеку.</div>
       <div class="grid">
         <div class="card mint"><b>6 045</b><span>людей зашли в Telegram-воронки</span><small>Сумма входов по учету воронок за анализируемый период.</small></div>
         <div class="card yellow"><b>42,25 млн</b><span>полный потенциал базы</span><small>6 045 × 6 990 руб. средний чек курса Sekta.</small></div>
@@ -219,6 +243,7 @@
     <section id="telegram-livedune">
       <p class="eyebrow">Источник: Telegram-выгрузки + LiveDune</p>
       <h2>Динамика контента и действий аудитории</h2>
+      <div class="source-request compact"><b>Оригинал по запросу:</b> выгрузки Telegram, LiveDune-данные и сводки по просмотрам, реакциям, CTA и действиям аудитории.</div>
       <div class="grid">
         <div class="card yellow"><b>2,16x</b><span>рост money-path постов</span><small>Стало больше единиц контента, ведущих аудиторию к действию, боту, продукту или покупке.</small></div>
         <div class="card mint"><b>+118%</b><span>рост CTA в среднем по месяцам</span><small>CTA стали появляться чаще и системнее.</small></div>
@@ -231,6 +256,7 @@
     <section id="content-views">
       <p class="eyebrow">Источник: разметка Telegram-контента</p>
       <h2>Какие типы контента собирали внимание</h2>
+      <div class="source-request compact"><b>Оригинал по запросу:</b> разметка постов по типам контента, просмотры и исходные выгрузки каналов.</div>
       <div class="grid">
         <div class="card mint"><b>448 тыс.</b><span>просмотров контента доверия</span><small>Посты, которые строили доверие к бренду, продукту и подходу Sekta.</small></div>
         <div class="card blue"><b>360 тыс.</b><span>просмотров продуктового контента</span><small>Материалы, которые объясняли продукты, направления и смысл покупки.</small></div>
@@ -243,6 +269,7 @@
     <section id="role-gap">
       <p class="eyebrow">Источник: сверка задач и фактической роли</p>
       <h2>Работа выходила шире позиции SMM</h2>
+      <div class="source-request compact"><b>Оригинал по запросу:</b> договор, реконструкция задач, рабочие чаты и таблица сверки формальной роли с фактическим объёмом работы.</div>
       <div class="grid">
         <div class="card mint"><b>905</b><span>касаний с аудиторией</span><small>Контентные и рабочие действия за неполные 5 месяцев.</small></div>
         <div class="card pink"><b>65,8%</b><span>задач выше SMM-роли</span><small>Задачи, которые выходили за рамку обычного ведения соцсетей.</small></div>
@@ -256,6 +283,7 @@
     <section id="project-plan">
       <p class="eyebrow">Источник: план первых 30-60 дней</p>
       <h2>Оценка экономии от project-роли</h2>
+      <div class="source-request compact"><b>Оригинал по запросу:</b> рабочий план 30-60 дней, расчёты экономии человеко-часов и логика приоритизации задач.</div>
       <div class="grid">
         <div class="card mint"><b>170-300 тыс.</b><span>экономии за 30 дней</span><small>Оценка через человеко-часы: меньше ручной координации, меньше потерь задач, быстрее отчетность и дожим.</small></div>
         <div class="card yellow"><b>274 тыс.</b><span>1% защищенного майского потенциала</span><small>1% от 27,43 млн руб. майского Telegram-потенциала.</small></div>
@@ -267,6 +295,7 @@
     <section id="quotes">
       <p class="eyebrow">Источник: рабочие чаты</p>
       <h2>Живые подтверждения от коллег</h2>
+      <div class="source-request compact"><b>Оригинал по запросу:</b> точные сообщения из рабочих чатов с контекстом, датой, временем и отправителем.</div>
       <div class="quote">
         <div class="meta"><span>Надя Короткова</span><span>руководитель продукта</span><span>03.02.2026</span></div>
         <blockquote>“Ты супер крутышка. Такой объем задач приносить, идей и форматов. Супер трудяжка”.</blockquote>
@@ -297,6 +326,7 @@
     <section id="contract">
       <p class="eyebrow">Источник: договор ГПХ</p>
       <h2>Формальная роль и оплата</h2>
+      <div class="source-request compact"><b>Оригинал по запросу:</b> договор ГПХ и подтверждение формальной роли/оплаты. В публичную ссылку договор не вынесен.</div>
       <div class="grid">
         <div class="card mint"><b>80 тыс.</b><span>текущая оплата</span><small>Рублей в месяц за позицию SMM.</small></div>
         <div class="card blue"><b>SMM</b><span>формальная роль</span><small>Официальная рамка найма была уже фактического объема работы.</small></div>
@@ -307,6 +337,7 @@
     <section id="market-package">
       <p class="eyebrow">Источник: оценочная сборка функций</p>
       <h2>Из чего сложилась сумма 846 тыс.</h2>
+      <div class="source-request compact"><b>Оригинал по запросу:</b> рабочая матрица функций, задач и расчётов по рыночному пакету компетенций.</div>
       <div class="grid">
         <div class="card lilac"><b>846 тыс.</b><span>условная стоимость пакета</span><small>Оценка набора функций, которые обычно закрывают несколько специалистов.</small></div>
         <div class="card mint"><b>8 ролей</b><span>в одном рабочем контуре</span><small>SMM/контент, редактура, аналитика, воронки/CRM, project-координация, продуктовый маркетинг, PR/истории, AI/no-code.</small></div>
